@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEMBUATAN JANJI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">BERANDA</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="doctors.html">DOKTER DAN JADWAL PRAKTIK</a></li>
+                <li><a href="book-appointment.html">BUAT JANJI</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+             <h1 class="title">BUAT JANJI</h1>
+        </section>
+
+        <form class="form" id="appointment-form">
+            <h2>Identitas</h2>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama"><br><br>
+            <label for="alamat">Alamat:</label>
+            <input type="textarea" id="alamat" name="alamat"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">No. HP:</label>
+            <input type="phone" id="phone" name="phone"><br><br>
+
+            <h2>Jadwal Janji</h2>
+            <label for="service" name="service">Pilih Layanan:</label>
+            <br><a>1. Konsultasi</a>
+            <br><a>2. Pemeriksaan</a>
+            <br><input type="text" id="service" name="service">
+
+            <br><br><label for="doctor">Pilih Dokter :</label>
+            <select id="doctor" name="doctor">
+                <script src="script.js"></script>
+            </select>
+            <br><br><label for="date">Pilih Tanggal:</label>
+            <input type="date" id="date" name="date">
+            <br><br><label for="time">Pilih Waktu :</label>
+            <input type="time" id="time" name="time">
+            <br><br><button type="submit">Buat Janji</button>
+        </form>
+    
+    </main>
+    <footer>
+        <p>&copy; 2300018437_ALYA-AULIA-AZZAHRA</p>
+    </footer>
+    
+</body>
+</html>
